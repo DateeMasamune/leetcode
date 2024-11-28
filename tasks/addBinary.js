@@ -94,5 +94,3 @@ const addB = (a, b) => {
 exports.addB = addB;
 const res = (0, exports.addBinary)('100', '110010');
 const res1 = (0, exports.addB)('100', '110010');
-console.log('=======>res', res);
-console.log('=======>res1', res1);

@@ -84,7 +84,6 @@ const inorderTraversal = function (root) {
     let ref = tree;
     stack.push(tree);
     while (stack.length > 0) {
-        console.log('=====>stack', stack);
         if (ref?.left) {
             stack.push(ref?.left);
             ref = ref?.left;
@@ -104,7 +103,6 @@ const inorderTraversal = function (root) {
             }
         }
     }
-    console.log('=====>result', result);
     return [...result];
 };
 exports.inorderTraversal = inorderTraversal;
